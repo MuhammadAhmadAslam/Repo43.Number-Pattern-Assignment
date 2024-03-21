@@ -147,8 +147,22 @@ for (let k = 2; k <= 7; k++) {
 document.write('<br>')
 document.write('<br>')
 document.write('<br>')
-document.write("<center>");
+document.write("</center>");
 
+for (let i = 1; i <= 7; i++) {
+    for (let j = 1; j <= i; j++) {
+        document.write(j + " ");
+        
+    }
+    document.write("<br>")
+}
+for (let i = 6; i >= 1; i--) {
+    for (let j = 1; j <= i; j++) {
+     document.write(j + " ");
+            
+  }
+    document.write("<br>")
+}
 
 
 
