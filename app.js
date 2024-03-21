@@ -163,7 +163,30 @@ for (let i = 6; i >= 1; i--) {
   }
     document.write("<br>")
 }
+document.write('<br>')
+document.write('<br>')
+document.write('<br>')
 
+for(let i= 7; i>=1; i--){
+    for (let j = 1; j<= i; j++) {
+        document.write(j);
+        
+    }
+    document.write("<br>")
+}
 
+document.write('<br>')
+document.write('<br>')
+document.write('<br>')
+
+document.write("<center>");
+
+for(let i= 7; i>=1; i--){
+    for (let j = 1; j<= i; j++) {
+        document.write(j);
+        
+    }
+    document.write("<br>")
+}
 
 
